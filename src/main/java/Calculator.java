@@ -39,7 +39,9 @@ class Calculator {
     etc
      */
     int fibonacciNumberFinder(int n){
-        return 0;
+        if(n <= 0) return 0;
+        else if(n < 2) return 1;
+        return fibonacciNumberFinder(n-1) + fibonacciNumberFinder( n-2);
     }
 
 
@@ -62,6 +64,7 @@ class Calculator {
         if(num==1){
             returnString.append(1);
         }
+
         returnString.reverse();
         return returnString.toString();
     }
