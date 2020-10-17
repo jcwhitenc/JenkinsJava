@@ -3,7 +3,6 @@ import java.util.Random;
 class Calculator {
 
     Calculator(){
-        This is supposed to break it
     }
 
     int add(int a , int b){
