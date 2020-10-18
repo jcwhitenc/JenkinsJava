@@ -35,7 +35,9 @@ public class Main {
                     output = String.valueOf(calc.fibonacciNumberFinder(Integer.parseInt(lineParts[1])));
                     break;
             }
-            if (!input.equals("done")) System.out.println(output);
+            if (!input.equals("done")){
+                System.out.println(output);
+            }
         }
     }
 }
